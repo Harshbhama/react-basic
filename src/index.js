@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom" //To render html into the page.
-
+import MyInfo from "./MyInfo"
 // ReactDOM.render(<div><h1>Hello</h1><p>This is paragraph</p></div>, document.getElementById("root"))
 
 // ReactDOM.render(<ul>
@@ -23,22 +23,5 @@ import ReactDOM from "react-dom" //To render html into the page.
 // 		)
 // }
 
-function MyInfo(){
-
-	return (
-
-	<div>	
-		<h1 class = "head"> Harsh </h1>
-		<p> Hello there !! </p>
-		<ul>
-			<li> 1.yes </li>
-			<li> 2.NO </li>
-
-		</ul>
-	</div>
-
-	)
-
-}
 
 ReactDOM.render(<MyInfo />, document.getElementById("root"))
