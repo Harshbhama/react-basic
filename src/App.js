@@ -12,23 +12,31 @@ function App(){
 	const hour = date.getHours()
 
 
+	const styles = {
+		fontSize: 40
+	}
+
 	let time
 
 	if(hour<12){
 		time = "Good morning"
+		styles.color = "blue"
 	}
 	else if(hour>=12 &&hour<17)
 	{
 		time = "Good afternoon"
+		styles.color = "green"
 	}
 	else{
 		time = "Good night"
+		styles.color = "red"
 	}
+
 
 	return(
 		<div>
 
-			<h1> Hello {fname+" "+lname}</h1>
+			<h1 style = {styles}> Hello {fname+" "+lname}</h1>
 			<h3>{time} {hour}</h3>
 
 
