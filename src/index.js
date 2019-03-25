@@ -3,6 +3,7 @@ import ReactDOM from "react-dom" //To render html into the page.
 // import MyInfo from "./components/MyInfo"
 
 import App from "./App"
+import styles from './index.css';
 
 
 // ReactDOM.render(<div><h1>Hello</h1><p>This is paragraph</p></div>, document.getElementById("root"))
