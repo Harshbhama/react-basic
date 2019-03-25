@@ -1,6 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom" //To render html into the page.
-import MyInfo from "./MyInfo"
+// import MyInfo from "./components/MyInfo"
+
+import App from "./App"
+
+
 // ReactDOM.render(<div><h1>Hello</h1><p>This is paragraph</p></div>, document.getElementById("root"))
 
 // ReactDOM.render(<ul>
@@ -24,4 +28,7 @@ import MyInfo from "./MyInfo"
 // }
 
 
-ReactDOM.render(<MyInfo />, document.getElementById("root"))
+// ReactDOM.render(<MyInfo />, document.getElementById("root"))
+
+
+ReactDOM.render(<App />, document.getElementById("root"))
