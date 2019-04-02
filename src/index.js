@@ -5,7 +5,7 @@ import ReactDOM from "react-dom" //To render html into the page.
 // import App from "./App"
 import styles from './index.css';
 
-import Appnew from "./Appnew"
+import App from "./App"
 
 // ReactDOM.render(<div><h1>Hello</h1><p>This is paragraph</p></div>, document.getElementById("root"))
 
@@ -33,4 +33,4 @@ import Appnew from "./Appnew"
 // ReactDOM.render(<MyInfo />, document.getElementById("root"))
 
 
-ReactDOM.render(<Appnew />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))
